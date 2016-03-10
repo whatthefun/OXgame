@@ -67,7 +67,7 @@ public class Draw extends View implements Runnable {
                 }
                 else if(board[3*i+j][0] == CROSS){
                     Log.d("onDraw", "CROSS");
-                    p.setColor(Color.GREEN);
+                    p.setColor(Color.BLACK);
                     p.setStrokeWidth(18);
                     canvas.drawLine(gridPointA_x - gridLength + 20 + gridLength * i,
                             gridPointB_y - gridLength + 20 + gridLength * j,
